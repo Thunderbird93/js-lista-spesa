@@ -8,7 +8,14 @@ Consigli:
 - Ricordiamoci di incrementare il contatore, o comunque di inserire una condizione di uscita, all’interno ciclo while
 */
 
+
+/*
 const listaSpesa = ['alcolici', 'carne','frutta', 'pasta','verdure'];
-listaSpesa.forEach(function(entry){
-    console.log(entry);
+listaSpesa.forEach(function(x){
+    console.log(x);
 })
+*/
+
+const listaSpesa = ['alcolici', 'carne','frutta', 'pasta','verdure'];
+for (i=0; i<listaSpesa.length; i++)
+document.writeln(listaSpesa[i]);
