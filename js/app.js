@@ -16,6 +16,19 @@ listaSpesa.forEach(function(x){
 })
 */
 
+
+/*con for
 const listaSpesa = ['alcolici', 'carne','frutta', 'pasta','verdure'];
 for (i=0; i<listaSpesa.length; i++)
 document.writeln(listaSpesa[i]);
+*/
+
+//con while
+const listaSpesa = ['alcolici', 'carne','frutta', 'pasta','verdure'];
+
+let c=0;
+while (c<listaSpesa.length){
+    document.writeln(listaSpesa[c]);
+    c++;
+    //console.log(listaSpesa);
+}
